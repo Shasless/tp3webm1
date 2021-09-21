@@ -1,16 +1,16 @@
 <template>
   <div id="app">
+    <HomePage msg="TP 3 Web M1 Adrien Girard"/>
   </div>
 </template>
 
 <script>
 
 import HomePage from "@/components/HomePage";
-
 export default {
   name: 'App',
   components: {
-    HomePage
+    HomePage,
 
   }
 }
