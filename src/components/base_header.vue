@@ -3,7 +3,7 @@
     <ul class="cf">
       <li><a >bonjour</a></li>
 
-      <li><a class="dropdown">Multimedia</a>
+      <li><a class="dropdown">bonjour</a>
         <ul>
           <li><a> bonjour</a></li>
           <li><a> bonjour</a></li>
