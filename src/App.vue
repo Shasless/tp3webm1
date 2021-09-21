@@ -1,23 +1,21 @@
 <template>
   <div>
-    <base_header />
-    <HomePage msg="TP 3 Web M1 Adrien Girard"/>
-    <base_footer />
+    <base_layout >
+    <HomePage />
+    </base_layout >
   </div>
 </template>
 
 <script>
 
 import HomePage from "@/components/HomePage";
-import base_footer from "@/components/base_footer";
-import base_header from "@/components/base_header";
+import base_layout from "@/components/base_layout";
 
 export default {
   name: 'App',
   components: {
     HomePage,
-    base_footer,
-    base_header
+    base_layout,
 
   }
 }
